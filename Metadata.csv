@@ -1,0 +1,7 @@
+asset_oec,,,rentals,,,market_mapping,
+Field Name,Description,,Field Name,Description ,,Field Name,Description 
+asset_id,Unique ID tied to an asset,,rental_month,Month when the rental occured.,,market_id,Unique ID for a market.
+market_id,Unique ID for a market. Maps to market_id in market_mapping data set.,,rental_id,Unique identifier for a rental. Rentals can span multiple months so the rental_id field can be repeated in the data set.,,market_name,Location of the market. This has been changed for confidentiality reasons so geographical distribution should not be considered in analysis.
+acquisition_date,Month the asset went into EquipmentShare's fleet. This is the month where you can start using OEC in the denominator for financial utilization.,,asset_id,Unique ID tied to an asset,,market_open_date,"Date the market was opened. It is possible for a rental to occur in a market before it was open, but for market performance analysis this is the earliest date for which we want to analyze the market."
+equipment_class,"""Dirt"" or ""Aerial"" classifcation for type of equipment. ""Arieal"" includes aerial lifts, telehandlers, and other types of lifts. ""Dirt"" include excavators, skid steers, trenching equipment, and other smaller assets.",,market_id,Unique ID for a market. Maps to market_id in market_mapping data set.,,,
+oec,"""Original Equipment Cost"" or purchase price of the asset.",,rental_revenue,Revenue generated for the given month from the rental.,,,
